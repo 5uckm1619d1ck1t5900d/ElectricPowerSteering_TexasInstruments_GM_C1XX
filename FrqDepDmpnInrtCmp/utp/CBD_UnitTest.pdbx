@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="dd5ef7a4-ec58-4a5a-951c-bc3cc07aac05"
+    location="$(PROJECTROOT)\tessy"
+    name="9BXX_FrqDepDmpnInrtCmp"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

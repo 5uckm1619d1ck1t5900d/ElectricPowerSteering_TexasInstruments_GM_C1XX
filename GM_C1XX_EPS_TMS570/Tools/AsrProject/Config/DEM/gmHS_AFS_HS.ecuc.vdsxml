@@ -1,0 +1,1628 @@
+<VectorConfigurationData version="1.2.4.0" persistencyVersion="1" persistencyLCVersion="1" xmlns="http://www.vector-informatik.de/GenTool_CsDataServerBase">
+  <Domains>
+    <AutosarDomain type="GenTool_CsDataServerDomAsr.AutosarDomainManager" version="1.2.4.0" persistencyVersion="1" persistencyLCVersion="1" xmlns="http://www.vector-informatik.de/GenTool_CsDataServerDomAsr">
+      <EvaluateInitialEcucFlag>True</EvaluateInitialEcucFlag>
+      <AllowInconsistency>True</AllowInconsistency>
+      <ThrowInconsistencyException>False</ThrowInconsistencyException>
+      <ValidationRules>
+        <Rule Id="0a0a4da3-3587-4a6a-a283-d64f685cd0e8" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Error" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="cd6ee426-5763-4d31-ab23-69609c2f835a" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="158f2fa6-96ac-4c4b-9b4c-e845e4807470" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Error" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="5b2aa9c9-e5c2-4d4b-a813-83eabfa6d5c8" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="c25c30cc-777a-44f6-aaae-3ef643360415" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Warning" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="3dcbbad7-4698-4a6b-a46d-86392ffe0c01" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Warning" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="16d1391e-0fba-43a5-84bd-e2141a527f0d" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="b91cca8a-eab5-4a09-866b-550a99acff1e" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Warning" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="d1440fb7-7482-4de8-bccf-34aae04458b1" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Warning" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="b483e61e-8ed1-4994-abfb-1975b81f5935" UseForAdjust="True" UseForValidation="True" ShowAdjustErrorMessages="Error" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="280a6754-e4a5-4f76-bced-b9fb120c8d56" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="a14198f2-375f-4793-8e25-77955ad2b6b7" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="8b2e7e9f-9d84-4cd1-a55c-1d295239847e" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="87837915-28ce-47c0-b240-50f6a41699b3" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="b8f3bfcb-e4dc-421f-880c-e4490534de38" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="a817c6db-0bda-423e-bf09-73a5fcffad94" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="c5c68fc0-f5bb-441b-8e17-cf8921b7940e" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="9c102ca7-490b-41d1-83b8-529fdd4a09c2" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="a3c26a96-58f1-40ab-b4bd-3d3bff21c71a" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="5050c555-8982-483f-b5fe-890148bccae3" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="767bc027-d1cd-4861-9128-0dde38052b0f" UseForAdjust="False" UseForValidation="True" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Error" />
+        <Rule Id="95d98f39-a408-4f23-9dcc-55c7c15ce6ed" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+        <Rule Id="b6814cee-8192-440f-b64f-3bbd9be58dbe" UseForAdjust="False" UseForValidation="False" ShowAdjustErrorMessages="Log" ShowAdjustSuccessMessages="Log" ShowValidationMessages="Warning" />
+      </ValidationRules>
+      <FileReferences xmlns="http://www.vector-informatik.de/GenTool_CsDataServerBase">
+        <FileReference FilePath="$(ProjectDir)\gmHS_AFS_HS.ecuc.arxml" ReadOnly="False" />
+        <FileReference FilePath="$(GenyComponentsDir)\_Boards\Tmsx70_Tms570ls30306upge\bswmd\Board_preo.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\_Schemes\Dem\bswmd\Dem_pre.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\PreConfig_preo.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\_Schemes\SchM\bswmd\SchM_Dem_pre.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(ProjectDir)\gmHS_AFS_HS.ecuc.Initial.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\GenTool_GenyVcfgNameDecorator_bswmd.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\_Boards\Tmsx70_Tms570ls30306upge\bswmd\Tmsx70_Tms570ls30306upge_bswmd.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\_Schemes\Dem\bswmd\Dem_bswmd.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(GenyComponentsDir)\AUTOSAR_EcucParamDef.arxml" ReadOnly="True" />
+        <FileReference FilePath="$(ProjectDir)\gmHS_AFS_HS.arxml" ReadOnly="True" />
+      </FileReferences>
+    </AutosarDomain>
+    <GeneralDomain type="GenTool_CsDataServerDomGeneral.GeneralDomainManager" version="1.2.4.0" persistencyVersion="1" persistencyLCVersion="1" xmlns="http://www.vector-informatik.de/GenTool_CsDataServerDomGeneral">
+      <Domains>
+        <AutosarEcucDomain type="GenTool_CsDataServerDomAsrEcuc.AutosarEcucDomainManager" version="1.2.4.0" persistencyVersion="1" persistencyLCVersion="1" xmlns="http://www.vector-informatik.de/GenTool_CsDataServerDomAsrEcuc">
+          <ActiveEcuConfiguration>/ActiveEcuC/ActiveEcuC</ActiveEcuConfiguration>
+          <InitialEcuConfiguration>/InitialEcuC/InitialEcuC</InitialEcuConfiguration>
+          <ActiveConfigurationPhase>PreCompile</ActiveConfigurationPhase>
+        </AutosarEcucDomain>
+      </Domains>
+      <GeneralDomainInfo>
+        <Controller>
+          <HwPlatform>Tms470</HwPlatform>
+          <Derivative>Tmsx70_Tms570psfc66</Derivative>
+        </Controller>
+        <Compiler>TexasInstruments</Compiler>
+        <TargetRootFolder>$(WorkingDir)</TargetRootFolder>
+      </GeneralDomainInfo>
+      <Tags xmlns="http://www.vector-informatik.de/GenTool_CsDataServerBase/Tags">
+        <Tag key="GENy_EcucPlugin_UserPreconfigFile">MICROSAR SLP3 Gateway</Tag>
+        <Tag key="GENy_EcucPlugin_FirstImportFinished">1</Tag>
+        <Tag key="GENy_EcucPlugin_DisableErrorDirectives">0</Tag>
+        <Tag key="GENy_EcucPlugin_ConfirmExportBeforeGeneration">1</Tag>
+      </Tags>
+      <XmlTags xmlns="http://www.vector-informatik.de/GenTool_CsDataServerBase/Tags">
+        <XmlTag key="GENy_PackageInfo">
+          <Gny:GenyPackage xmlns:Gny="http://www.vector-informatik.de/GenTool/GenyPackage" PackageId="Nexteer GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments tbd-CBD1110060" DeliveryId="12.00.01.01.11.00.60.01.00.00" Path="C:\02_EA3Int\C1xx\Work_Int\GM_C1XX_EPS_TMS570\Tools\AsrProject\Generators\Components_DEM\" />
+</XmlTag>
+        <XmlTag key="GENy_EcucPlugin_GeneralStorageData">
+          <ecuconfig xmlns="">
+            <EcuStorageDataT>
+              <configurationhistory>
+                <session starttime="0" starttimelocal="Wed Dec 31 19:00:00 1969" endtime="0" endtimelocal="Wed Dec 31 19:00:00 1969" machinename="FR4333NBF" username="visfr" fslocation="">
+                  <event level="4" eventtype="1" text="This configuration was first created with a GENy that didn't implement the configuration history feature. Hence, older events cannot be displayed" />
+                </session>
+                <session starttime="1314712375" starttimelocal="Tue Aug 30 09:52:55 2011" endtime="1314714380" endtimelocal="Tue Aug 30 10:26:20 2011" machinename="FR4333NBF" username="visfr" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.37.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="-1067989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-1267989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="-1117989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="2029726376" changedateFTHigh="30171753" diff="changed" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="-967989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="-967989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="-967989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="-957989888" changedateFTHigh="30171752" diff="changed" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="-1005309490" changedateFTHigh="30165061" diff="changed" />
+                          <File name="version.info" changedate="2011-8-24 17:17" changedateFTLow="-519685262" changedateFTHigh="30171760" diff="changed" />
+                          <File name="zBrs_EmbeddedRunTimeSystem.dll" version="1.5.0.0" diff="not existing in next session" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1316721544" starttimelocal="Thu Sep 22 15:59:04 2011" endtime="1316721769" endtimelocal="Thu Sep 22 16:02:49 2011" machinename="SAGD277HHQ1" username="qz0qz9" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1316721948" starttimelocal="Thu Sep 22 16:05:48 2011" endtime="1316722693" endtimelocal="Thu Sep 22 16:18:13 2011" machinename="SAGD277HHQ1" username="qz0qz9" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1316723309" starttimelocal="Thu Sep 22 16:28:29 2011" endtime="1316723809" endtimelocal="Thu Sep 22 16:36:49 2011" machinename="SAGD277HHQ1" username="qz0qz9" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1316724254" starttimelocal="Thu Sep 22 16:44:14 2011" endtime="1316724298" endtimelocal="Thu Sep 22 16:44:58 2011" machinename="SAGD277HHQ1" username="qz0qz9" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1317048608" starttimelocal="Mon Sep 26 10:50:08 2011" endtime="1317053532" endtimelocal="Mon Sep 26 12:12:12 2011" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1317054526" starttimelocal="Mon Sep 26 12:28:46 2011" endtime="1317054543" endtimelocal="Mon Sep 26 12:29:03 2011" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1317155167" starttimelocal="Tue Sep 27 16:26:07 2011" endtime="1317155399" endtimelocal="Tue Sep 27 16:29:59 2011" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1317225445" starttimelocal="Wed Sep 28 11:57:25 2011" endtime="1317226444" endtimelocal="Wed Sep 28 12:14:04 2011" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.3.1" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.36.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1338906764" starttimelocal="Tue Jun 05 10:32:44 2012" endtime="1338918892" endtimelocal="Tue Jun 05 13:54:52 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1338924686" starttimelocal="Tue Jun 05 15:31:26 2012" endtime="1338925067" endtimelocal="Tue Jun 05 15:37:47 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1339008249" starttimelocal="Wed Jun 06 14:44:09 2012" endtime="1339008904" endtimelocal="Wed Jun 06 14:55:04 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.18.0.57" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.17.1.38" />
+                          <File name="DescDataModelPackage.dll" version="1.18.0.38" />
+                          <File name="DescShaper.dll" version="2.18.0.34" />
+                          <File name="DescXmlPersistor.dll" version="1.18.0.69" />
+                          <File name="Diag_AsrDem.dll" version="3.8.0.5" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.13.0.2" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.18.0.47" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2011-8-24 17:17" changedateFTLow="733906944" changedateFTHigh="30171811" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1339011364" starttimelocal="Wed Jun 06 15:36:04 2012" endtime="1339011455" endtimelocal="Wed Jun 06 15:37:35 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1339012598" starttimelocal="Wed Jun 06 15:56:38 2012" endtime="1339012935" endtimelocal="Wed Jun 06 16:02:15 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1339075800" starttimelocal="Thu Jun 07 09:30:00 2012" endtime="1339075841" endtimelocal="Thu Jun 07 09:30:41 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.18.0.57" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.17.1.38" />
+                          <File name="DescDataModelPackage.dll" version="1.18.0.38" />
+                          <File name="DescShaper.dll" version="2.18.0.34" />
+                          <File name="DescXmlPersistor.dll" version="1.18.0.69" />
+                          <File name="Diag_AsrDem.dll" version="3.8.0.5" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.13.0.2" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.18.0.47" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2011-8-24 17:17" changedateFTLow="733906944" changedateFTHigh="30171811" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1339078738" starttimelocal="Thu Jun 07 10:18:58 2012" endtime="1339078749" endtimelocal="Thu Jun 07 10:19:09 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1339162146" starttimelocal="Fri Jun 08 09:29:06 2012" endtime="1339166123" endtimelocal="Fri Jun 08 10:35:23 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.18.0.57" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.17.1.38" />
+                          <File name="DescDataModelPackage.dll" version="1.18.0.38" />
+                          <File name="DescShaper.dll" version="2.18.0.34" />
+                          <File name="DescXmlPersistor.dll" version="1.18.0.69" />
+                          <File name="Diag_AsrDem.dll" version="3.8.0.5" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.13.0.2" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.18.0.47" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2011-8-24 17:17" changedateFTLow="733906944" changedateFTHigh="30171811" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1339169886" starttimelocal="Fri Jun 08 11:38:06 2012" endtime="1339169929" endtimelocal="Fri Jun 08 11:38:49 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1339170752" starttimelocal="Fri Jun 08 11:52:32 2012" endtime="1339170777" endtimelocal="Fri Jun 08 11:52:57 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1339172106" starttimelocal="Fri Jun 08 12:15:06 2012" endtime="1339172129" endtimelocal="Fri Jun 08 12:15:29 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1339258436" starttimelocal="Sat Jun 09 12:13:56 2012" endtime="1339258559" endtimelocal="Sat Jun 09 12:15:59 2012" machinename="SAGLDJ6J9N1" username="jzh87w" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1343321294" starttimelocal="Thu Jul 26 12:48:14 2012" endtime="1343322901" endtimelocal="Thu Jul 26 13:15:01 2012" machinename="SAGL2DCB2N1" username="qzx0t0" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.37.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1343324197" starttimelocal="Thu Jul 26 13:36:37 2012" endtime="1343325302" endtimelocal="Thu Jul 26 13:55:02 2012" machinename="SAGL2DCB2N1" username="qzx0t0" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.37.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1348777478" starttimelocal="Thu Sep 27 16:24:38 2012" endtime="1348777813" endtimelocal="Thu Sep 27 16:30:13 2012" machinename="SAGL2DCB2N1" username="qzx0t0" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.00.01.11.00.60.00.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.18.0.57" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.17.1.38" />
+                          <File name="DescDataModelPackage.dll" version="1.18.0.38" />
+                          <File name="DescShaper.dll" version="2.18.0.34" />
+                          <File name="DescXmlPersistor.dll" version="1.18.0.69" />
+                          <File name="Diag_AsrDem.dll" version="3.8.0.5" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.13.0.2" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.18.0.47" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2011-8-24 17:17" changedateFTLow="733906944" changedateFTHigh="30171811" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1348778132" starttimelocal="Thu Sep 27 16:35:32 2012" endtime="1348778386" endtimelocal="Thu Sep 27 16:39:46 2012" machinename="SAGL2DCB2N1" username="qzx0t0" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1351266160" starttimelocal="Fri Oct 26 11:42:40 2012" endtime="1351266306" endtimelocal="Fri Oct 26 11:45:06 2012" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1351266702" starttimelocal="Fri Oct 26 11:51:42 2012" endtime="1351267043" endtimelocal="Fri Oct 26 11:57:23 2012" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1351269186" starttimelocal="Fri Oct 26 12:33:06 2012" endtime="1351270694" endtimelocal="Fri Oct 26 12:58:14 2012" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1351274552" starttimelocal="Fri Oct 26 14:02:32 2012" endtime="1351278611" endtimelocal="Fri Oct 26 15:10:11 2012" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1359051130" starttimelocal="Thu Jan 24 13:12:10 2013" endtime="1359051223" endtimelocal="Thu Jan 24 13:13:43 2013" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1372444625" starttimelocal="Fri Jun 28 14:37:05 2013" endtime="1372444854" endtimelocal="Fri Jun 28 14:40:54 2013" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1374003353" starttimelocal="Tue Jul 16 15:35:53 2013" endtime="1374003417" endtimelocal="Tue Jul 16 15:36:57 2013" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1374003516" starttimelocal="Tue Jul 16 15:38:36 2013" endtime="1374003535" endtimelocal="Tue Jul 16 15:38:55 2013" machinename="SAGL3S5B6N1" username="czgng4" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375109398" starttimelocal="Mon Jul 29 10:49:58 2013" endtime="1375118865" endtimelocal="Mon Jul 29 13:27:45 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375125914" starttimelocal="Mon Jul 29 15:25:14 2013" endtime="1375133793" endtimelocal="Mon Jul 29 17:36:33 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375214145" starttimelocal="Tue Jul 30 15:55:45 2013" endtime="1375216169" endtimelocal="Tue Jul 30 16:29:29 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375216272" starttimelocal="Tue Jul 30 16:31:12 2013" endtime="1375216422" endtimelocal="Tue Jul 30 16:33:42 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375277087" starttimelocal="Wed Jul 31 09:24:47 2013" endtime="1375277225" endtimelocal="Wed Jul 31 09:27:05 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375277766" starttimelocal="Wed Jul 31 09:36:06 2013" endtime="1375280321" endtimelocal="Wed Jul 31 10:18:41 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375281946" starttimelocal="Wed Jul 31 10:45:46 2013" endtime="1375281998" endtimelocal="Wed Jul 31 10:46:38 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375282019" starttimelocal="Wed Jul 31 10:46:59 2013" endtime="1375282101" endtimelocal="Wed Jul 31 10:48:21 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375282449" starttimelocal="Wed Jul 31 10:54:09 2013" endtime="1375282469" endtimelocal="Wed Jul 31 10:54:29 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1375282747" starttimelocal="Wed Jul 31 10:59:07 2013" endtime="1375282783" endtimelocal="Wed Jul 31 10:59:43 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375282948" starttimelocal="Wed Jul 31 11:02:28 2013" endtime="1375283890" endtimelocal="Wed Jul 31 11:18:10 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375292918" starttimelocal="Wed Jul 31 13:48:38 2013" endtime="1375292943" endtimelocal="Wed Jul 31 13:49:03 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1375292960" starttimelocal="Wed Jul 31 13:49:20 2013" endtime="1375292976" endtimelocal="Wed Jul 31 13:49:36 2013" machinename="SAGLHZZR5S1" username="zz4r1x" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" diff="changed" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" diff="changed" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" diff="changed" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" diff="changed" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" diff="changed" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1414689251" starttimelocal="Thu Oct 30 13:14:11 2014" endtime="1414689306" endtimelocal="Thu Oct 30 13:15:06 2014" machinename="SAGL5MCH5S1" username="kzdyfh" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.38.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2012-10-18 18:55" changedateFTLow="-1310900736" changedateFTHigh="30256515" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2012-10-18 19:1" changedateFTLow="-2125868032" changedateFTHigh="30256516" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" />
+                          <File name="preconfig_oem.xml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" />
+                          <File name="PreConfig_preo.arxml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" />
+                          <File name="SupportedTargets.xml" changedate="2012-10-18 19:1" changedateFTLow="-2025868032" changedateFTHigh="30256516" />
+                          <File name="version.info" changedate="2012-10-22 20:20" changedateFTLow="755785728" changedateFTHigh="30257332" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1414690035" starttimelocal="Thu Oct 30 13:27:15 2014" endtime="1414690371" endtimelocal="Thu Oct 30 13:32:51 2014" machinename="SAGL5MCH5S1" username="kzdyfh" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                </session>
+                <session starttime="1416421906" starttimelocal="Wed Nov 19 13:31:46 2014" endtime="1416421937" endtimelocal="Wed Nov 19 13:32:17 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416422192" starttimelocal="Wed Nov 19 13:36:32 2014" endtime="1416422218" endtimelocal="Wed Nov 19 13:36:58 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416491481" starttimelocal="Thu Nov 20 08:51:21 2014" endtime="1416491518" endtimelocal="Thu Nov 20 08:51:58 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416492508" starttimelocal="Thu Nov 20 09:08:28 2014" endtime="1416492530" endtimelocal="Thu Nov 20 09:08:50 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416492750" starttimelocal="Thu Nov 20 09:12:30 2014" endtime="1416492779" endtimelocal="Thu Nov 20 09:12:59 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416492953" starttimelocal="Thu Nov 20 09:15:53 2014" endtime="1416492974" endtimelocal="Thu Nov 20 09:16:14 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416493717" starttimelocal="Thu Nov 20 09:28:37 2014" endtime="1416493898" endtimelocal="Thu Nov 20 09:31:38 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416493925" starttimelocal="Thu Nov 20 09:32:05 2014" endtime="1416493967" endtimelocal="Thu Nov 20 09:32:47 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1416493973" starttimelocal="Thu Nov 20 09:32:53 2014" endtime="1416493981" endtimelocal="Thu Nov 20 09:33:01 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1417620153" starttimelocal="Wed Dec 03 10:22:33 2014" endtime="1417623774" endtimelocal="Wed Dec 03 11:22:54 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1417623836" starttimelocal="Wed Dec 03 11:23:56 2014" endtime="1417623915" endtimelocal="Wed Dec 03 11:25:15 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1417624029" starttimelocal="Wed Dec 03 11:27:09 2014" endtime="1417624252" endtimelocal="Wed Dec 03 11:30:52 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1417624958" starttimelocal="Wed Dec 03 11:42:38 2014" endtime="1417624969" endtimelocal="Wed Dec 03 11:42:49 2014" machinename="SAGLFYGBH12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                </session>
+                <session starttime="1426259926" starttimelocal="Fri Mar 13 11:18:46 2015" endtime="1426261445" endtimelocal="Fri Mar 13 11:44:05 2015" machinename="SAGL7N58P12" username="cz8l9t" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 2.0.0.8" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" diff="changed" />
+                          <File name="chpcfg01.dll" changedate="2012-10-18 18:55" changedateFTLow="-1310900736" changedateFTHigh="30256515" diff="changed" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" diff="changed" />
+                          <File name="license.liz" changedate="2012-10-18 19:1" changedateFTLow="-2125868032" changedateFTHigh="30256516" diff="changed" />
+                          <File name="OWL52F.DLL" changedate="2012-10-18 19:1" changedateFTLow="2129099264" changedateFTHigh="30256516" diff="changed" />
+                          <File name="preconfig.xml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" diff="changed" />
+                          <File name="preconfig_oem.xml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" diff="changed" />
+                          <File name="PreConfig_preo.arxml" changedate="2012-10-18 18:55" changedateFTLow="-1350900736" changedateFTHigh="30256515" diff="changed" />
+                          <File name="SupportedTargets.xml" changedate="2012-10-18 19:1" changedateFTLow="-2025868032" changedateFTHigh="30256516" diff="changed" />
+                          <File name="version.info" changedate="2012-10-22 20:20" changedateFTLow="755785728" changedateFTHigh="30257332" diff="changed" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1435682328" starttimelocal="Tue Jun 30 12:38:48 2015" endtime="1435682342" endtimelocal="Tue Jun 30 12:39:02 2015" machinename="SAGL7N58P12" username="CZ8L9T" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1460296759" starttimelocal="Sun Apr 10 09:59:19 2016" endtime="1460296844" endtimelocal="Sun Apr 10 10:00:44 2016" machinename="SAGL79SGQ32" username="FZ9HXM" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <!--The full package content is always in the last session. Prior sessions contains only the diffs to the next session-->
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+                <session starttime="1460296968" starttimelocal="Sun Apr 10 10:02:48 2016" endtime="1460297029" endtimelocal="Sun Apr 10 10:03:49 2016" machinename="SAGL79SGQ32" username="FZ9HXM" fslocation="">
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyPluginAsrIfEcuConfigFile" genericeventtypeid="1" genericeventdata="DataServer version is 1.2.4.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="2" genericeventdata="Cangenlib Version: 1.4.40.0" />
+                  <event level="4" eventtype="4" text="" genericeventtypequalifier="GenTool_GenyFrameworkGenLib" genericeventtypeid="1" genericeventdata="PackageInfo">
+                    <dataxml>
+                      <PackageInfo>
+                        <package>
+                          <delivery version="12.00.01.01.11.00.60.01.00.00" />
+                        </package>
+                        <Files>
+                          <File name="AFRSettings.dll" version="1.2.2.0" />
+                          <File name="asap2prs.dll" version="1.60.4.0" />
+                          <File name="AUTOSAR_EcucParamDef.arxml" changedate="2011-8-24 16:18" changedateFTLow="193645312" changedateFTHigh="30171803" />
+                          <File name="BDS52F.DLL" version="5.0.0.4" />
+                          <File name="bustiming.dll" version="1.0.0.0" />
+                          <File name="CANdelaImpEx.dll" version="1.22.0.2" />
+                          <File name="CANdelaSharedUtil.dll" version="6.5.9.0" />
+                          <File name="CanLinCfgar.dll" version="1.5.1.0" />
+                          <File name="Cdbmslfqo.dll" version="9.2.15.853" />
+                          <File name="chipcfg.dll" version="5.7.9.0" />
+                          <File name="chpcfg01.dll" changedate="2011-8-24 16:18" changedateFTLow="-6354688" changedateFTHigh="30171802" />
+                          <File name="CSyntax.dll" version="2.10.0.0" />
+                          <File name="CW3230.DLL" version="4.2.0.0" />
+                          <File name="Cynthia.dll" version="2.2.100.22" />
+                          <File name="DaMe.dll" version="6.5.123.1" />
+                          <File name="DepMan.dll" version="6.5.123.1" />
+                          <File name="DescDataModel.dll" version="1.22.0.2" />
+                          <File name="DescDataModelPackage.dll" version="1.22.0.2" />
+                          <File name="DescShaper.dll" version="2.22.0.2" />
+                          <File name="DescXmlPersistor.dll" version="1.22.0.2" />
+                          <File name="Diag_AsrDem.dll" version="3.10.0.2" />
+                          <File name="Diag_CanDesc__coreBase.dll" version="6.17.0.0" />
+                          <File name="EcucLocking.dll" version="2.2.0.0" />
+                          <File name="GenTool_GenyComStackTypes.dll" version="1.0.1.0" />
+                          <File name="GenTool_GenyObjectHierarchyPdu.dll" version="2.11.0.0" />
+                          <File name="GenTool_GenyObjectModel.dll" version="2.12.0.0" />
+                          <File name="GenTool_GenyPluginAsrIfEcuConfigFile.dll" version="2.17.0.4" />
+                          <File name="GenTool_GenyPluginConfigDocumentor.dll" version="2.2.2.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator.dll" version="2.23.0.0" />
+                          <File name="GenTool_GenyVcfgNameDecorator_bswmd.arxml" changedate="2011-8-24 16:18" changedateFTLow="133645312" changedateFTHigh="30171803" />
+                          <File name="GenTool_XChecksumcrc.dll" version="1.0.0.0" />
+                          <File name="GenXML.dll" version="1.13.0.1" />
+                          <File name="GenXMLCANdb.dll" version="1.5.0.0" />
+                          <File name="GenXMLEcu.dll" version="1.5.0.0" />
+                          <File name="Hw_Tms470Cpu.dll" version="2.9.0.0" />
+                          <File name="Hw__baseCpuCan.dll" version="2.22.7.0" />
+                          <File name="libexpat.dll" version="1.95.8.2" />
+                          <File name="license.liz" changedate="2011-8-24 16:24" changedateFTLow="-1001321984" changedateFTHigh="30171803" />
+                          <File name="LoggingXP.dll" version="1.22.0.2" />
+                          <File name="MaskPSW.dll" version="1.1.0.0" />
+                          <File name="MicrosarTemplateUpdater.exe" version="1.0.1.4114" />
+                          <File name="ohcanar.dll" version="1.22.0.1" />
+                          <File name="ohcanglar.dll" version="1.3.0.0" />
+                          <File name="OWL52F.DLL" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="Persistor.dll" version="6.5.123.1" />
+                          <File name="PortInterfaceExport.dll" version="2.3.0.0" />
+                          <File name="preconfig.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="preconfig_oem.xml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="PreConfig_preo.arxml" changedate="2011-8-24 16:19" changedateFTLow="293645312" changedateFTHigh="30171803" />
+                          <File name="SupportedTargets.xml" changedate="2011-7-22 10:2" changedateFTLow="259822848" changedateFTHigh="30165112" />
+                          <File name="version.info" changedate="2012-10-22 19:20" changedateFTLow="-884475904" changedateFTHigh="30257323" />
+                        </Files>
+                      </PackageInfo>
+                    </dataxml>
+                  </event>
+                </session>
+              </configurationhistory>
+              <Modules>
+                <GenPaths>
+                  <GenPath fileType="CSyntax_Config" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="CSyntax_Param_Header" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="CSyntax_Param_Source" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="CSyntax_AUTOSAR_Config" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="CSyntax_AUTOSAR_Link_Param_Source" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="CSyntax_AUTOSAR_Postbuild_Param_Source" fileDir="..\..\SwProject\Source\_GenData" />
+                  <GenPath fileType="SWC_Template" fileDir="Config\ServiceComponents" />
+                </GenPaths>
+                <Module name="Diag_AsrDem">
+                  <GenPaths />
+                </Module>
+                <Module name="CANdescBase">
+                  <GenPaths />
+                </Module>
+                <Module name="GenTool_GenyComStackTypes">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerCan">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerCom">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerFr">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerPdu">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerLin">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerPduM">
+                  <GenPaths />
+                </Module>
+                <Module name="LayerMost">
+                  <GenPaths />
+                </Module>
+                <Module name="ObjectModelRoot">
+                  <GenPaths />
+                </Module>
+                <Module name="ObjectModelBase">
+                  <GenPaths />
+                </Module>
+                <Module name="GenTool_GenyPluginAsrIfEcuConfigFile">
+                  <GenPaths />
+                </Module>
+                <Module name="IdentifiableProxyHelper">
+                  <GenPaths />
+                </Module>
+                <Module name="Configuration Documentation">
+                  <GenPaths />
+                </Module>
+                <Module name="BaseEnv">
+                  <GenPaths />
+                </Module>
+                <Module name="MultipleIdentitiesBase">
+                  <GenPaths />
+                </Module>
+                <Module name="NameDecorator">
+                  <GenPaths />
+                </Module>
+                <Module name="CPUTMS470">
+                  <GenPaths />
+                </Module>
+                <Module name="Hw_Tms470CpuDcan">
+                  <GenPaths />
+                </Module>
+                <Module name="Hw_NiosCpu">
+                  <GenPaths />
+                </Module>
+                <Module name="Hw_Tms320_DRA44xCpu">
+                  <GenPaths />
+                </Module>
+                <Module name="Hw_Tms320Cpu">
+                  <GenPaths />
+                </Module>
+                <Module name="Hw_OmapCpu">
+                  <GenPaths />
+                </Module>
+                <Module name="GenTool_GenyObjectHierarchyCan">
+                  <GenPaths />
+                </Module>
+              </Modules>
+              <GuiStorageDataT>
+                <postgen />
+              </GuiStorageDataT>
+            </EcuStorageDataT>
+          </ecuconfig>
+</XmlTag>
+      </XmlTags>
+    </GeneralDomain>
+  </Domains>
+  <ProjectInfo>
+    <ProjectName>gmHS_AFS_HS.ecuc</ProjectName>
+    <ProjectVersion>
+    </ProjectVersion>
+    <ProjectAuthor>visfr</ProjectAuthor>
+    <ProjectDescription>
+    </ProjectDescription>
+  </ProjectInfo>
+  <ShortcutDirectories>
+    <ShortcutDirectory Shortcut="ProjectDir" LastKnownDirectory="C:\02_EA3Int\C1xx\Work_Int\GM_C1XX_EPS_TMS570\Tools\AsrProject\Config\DEM" />
+    <ShortcutDirectory Shortcut="WorkingDir" LastKnownDirectory="C:\02_EA3Int\C1xx\Work_Int\GM_C1XX_EPS_TMS570\Tools\AsrProject" />
+    <ShortcutDirectory Shortcut="GenyComponentsDir" LastKnownDirectory="C:\02_EA3Int\C1xx\Work_Int\GM_C1XX_EPS_TMS570\Tools\AsrProject\Generators\Components_DEM" />
+  </ShortcutDirectories>
+  <XmlTags xmlns="http://www.vector-informatik.de/GenTool_CsDataServerBase/Tags">
+    <XmlTag key="GenTool_CsAsrInitialEcuC">
+      <GenTool_CsAsrInitialEcuC xmlns="http://www.vector-informatik.de/GenTool_CsAsrInitialEcuC">
+        <Version>2.1.1.0</Version>
+        <ActiveEcuCFile>gmHS_AFS_HS.ecuc.arxml</ActiveEcuCFile>
+        <InitialEcuCFile>gmHS_AFS_HS.ecuc.Initial.arxml</InitialEcuCFile>
+        <SystemExtractFiles>
+          <SystemExtractFile>gmHS_AFS_HS.arxml</SystemExtractFile>
+        </SystemExtractFiles>
+      </GenTool_CsAsrInitialEcuC>
+    </XmlTag>
+  </XmlTags>
+</VectorConfigurationData>

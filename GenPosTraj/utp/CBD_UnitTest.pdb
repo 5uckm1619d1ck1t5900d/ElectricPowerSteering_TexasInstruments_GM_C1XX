@@ -1,0 +1,241 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\GenPosTrajectory\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\GenPosTrajectory\utp\.backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "PZ29LN"
+Created          : 14.02.2012 19:33
+Last Changed     : 03.10.2013 19:03
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "GenPosTraj"
+      Comment     : "********************************************Unit Test Description****************************************\r\n\r\nName of Tester:Priti Mangalekar\r\nCode File(s) Under Test:Ap_GenPosTraj.c\r\nCode File(s) Version:6\r\nModule Design Document:GenPosTraj_MDD.docx\r\nModule Design Document Version:3\r\nData Dictionary Version:4\r\nUnit Test Plan Version:2\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/EPS Library 1.29\r\nSpecial Test Requirements:\r\nTest Date:10/3/2013\r\nComments:\r\nNote1:Inline function defined in Globalmacro.h is not unit tested.\n\r\nNote2:In ""GenerateSignal"""" function, out of range value is given to ""GenPosTraj_CmdState_Cnt_M_Enum"" to cover ""Case Default=True"" path in TS2.10.\nNote3:In ""GenerateSignal"" and ""GenPosTraj_Per1"" function,value of ""GenPosTraj_HwAngleOffsetIn_HwDeg_M_f32"" output variable is going out of range.\nNote4:In ""InitializeVariables"" function,out of range value is given to ""GenPosTraj_TargetVelocityInitial_HwDegpSec_M_f32"" and ""GenPosTraj_TargetAccelerationInitial_HwDegpSecSqr_M_f32"" variable in TS2.3 and TS2.4 to cover ""(GenPosTraj_TargetVelocityInitial_HwDegpSec_M_f32 <=1)=True "" and ""(GenPosTraj_TargetAccelerationInitial_HwDegpSecSqr_M_f32<= 0.125)=True"" condition respectively.\r\n\nNote5:Following ranges are not updated in MDD or DD.\nGenPosTraj_TargetAngle_HwDeg_M_f32=-800 to 800\nGenPosTraj_TargetVelocity_HwDegpSec_M_f32=10 to 1000\nGenPosTraj_TargetAcceleration_HwDegpSecSqr_M_f32=10 to 2000\nGenPosTraj_TargetAngleInitial_HwDeg_M_f32=-800 to 800\nGenPosTraj_TargetVelocityInitial_HwDegpSec_M_f32=10 to 1000\nGenPosTraj_TargetAccelerationInitial_HwDegpSecSqr_M_f32=10 to 2000\npDeltaVelocity_Sec_T_f32=0 to 27520.\r\n\r\n\r\n*************************************************************************************************************\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const=,__inline="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\GenPosTrajectory\utp\contract, $(PROJECTROOT)\GenPosTrajectory\utp\contract\Ap_GenPosTraj, $(PROJECTROOT)\GenPosTrajectory\include, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+      End
+      Source File
+         Name : "Ap_GenPosTraj.c"
+         Path : "$(PROJECTROOT)\GenPosTrajectory\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "GenPosTraj_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "InitializeVariables"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "GenerateSignal"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "GenPosTraj_SCom_SetInputParam"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

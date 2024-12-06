@@ -1,0 +1,1 @@
+extern VAR(boolean, AP_SRLCOMOUTPUT_VAR) DTCTriggeredFlag_Cnt_M_lgc[D_NUMOFDEMEVENTS_CNT_U08 + 1U];

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="13593336-2e5f-4c73-beb1-8567d8185bfa"
+    location="$(PROJECTROOT)\tessy"
+    name="GMStrtStop2"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

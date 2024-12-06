@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CANbeddedVersionInfo Version="2.5">
+    <Properties>
+        <DeliveryDate>2010-12-17</DeliveryDate>
+        <CreatedDate>2010-12-16</CreatedDate>
+        <CBD>CBD1010122</CBD>
+        <SIP>10.01.07</SIP>
+        <Release>00</Release>
+        <ProjectNumber>5010126</ProjectNumber>
+        <Eval>false</Eval>
+        <ErrataContacts>
+            <ErrataContact>
+                <Firstname>Scott</Firstname>
+                <Surname>Wendling</Surname>
+                <Email>scott.wendling@nexteer.com</Email>
+            </ErrataContact>
+            <ErrataContact>
+                <Firstname>Jim</Firstname>
+                <Surname>Massung</Surname>
+                <Email>jim.massung@nexteer.com</Email>
+            </ErrataContact>
+        </ErrataContacts>
+        <CustomerContact>
+            <Firstname>Ralf</Firstname>
+            <Surname>Fritz</Surname>
+            <Email>Ralf.Fritz@vector.com</Email>
+        </CustomerContact>
+        <Customer>Nexteer&#13;
+GM MSR_SLP3_BSW_RTE_wGMLAN TexasInstruments TMS570 Texas Instruments</Customer>
+        <DeliveryType>Initial delivery</DeliveryType>
+        <ReleaseType>Serial production release (complete functionality, fully tested, full process, incl. serial production release)</ReleaseType>
+        <DeliveryReason/>
+        <OEM>Gm</OEM>
+        <SLP>MSR Vector SLP3</SLP>
+        <UseCases/>
+        <Controller>Tmsx70</Controller>
+        <CanCell>Dcan</CanCell>
+        <Compiler>TexasInstruments</Compiler>
+        <DeliveryPath>\\vistrpesfs1\Project\AUTOSAR\Nexteer\2010\2010-12-17_CBD1010122_TMS570_Texas_D00</DeliveryPath>
+        <TestedDerivative>TMS570PSFC66</TestedDerivative>
+        <OrderedDerivative>TMS570LS202SPEGQ</OrderedDerivative>
+        <NDA>false</NDA>
+    </Properties>
+    <ComponentCheck>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="Common_Vdef" ProjectGroup="Common" ScanPattern="COMMON_VDEF" Version="03.10.00">
+            <RelativeFileSpec>.\_Common\v_def.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Impl_CompAbstract_TexasInstruments" Delivered="True" Lib="false" Project="CommonAsr_Tms470" ProjectGroup="CommonAsr" ScanPattern="CommonAsr_Tms470_Impl_CompAbstract" Version="01.01.00">
+            <RelativeFileSpec>.\_Common\Compiler.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Impl_PlatformTypes" Delivered="True" Lib="false" Project="CommonAsr_Tms470" ProjectGroup="CommonAsr" ScanPattern="CommonAsr_Tms470_Impl_PlatformTypes" Version="01.01.00">
+            <RelativeFileSpec>.\_Common\Platform_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Impl_ComStackTypes" Delivered="True" Lib="false" Project="CommonAsr__Common" ProjectGroup="CommonAsr" ScanPattern="CommonAsr__Common_Impl_ComStackTypes" Version="03.03.01">
+            <RelativeFileSpec>.\_Common\ComStack_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Impl_StdTypes" Delivered="True" Lib="false" Project="CommonAsr__Common" ProjectGroup="CommonAsr" ScanPattern="CommonAsr__Common_Impl_StdTypes" Version="03.03.01">
+            <RelativeFileSpec>.\_Common\Std_Types.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Impl__Compiler_Cfg" Delivered="True" Lib="false" Project="CommonAsr__Common" ProjectGroup="CommonAsr" Version="01.05.04">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Impl__MemMap" Delivered="True" Lib="false" Project="CommonAsr__Common" ProjectGroup="CommonAsr" Version="01.05.04">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="DaVinci_Rte" ProjectGroup="DaVinci" Version="01.11.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Generator" Delivered="True" Lib="false" Project="DaVinci_Rte" ProjectGroup="DaVinci" Version="02.17.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="DaVinci_Rte" ProjectGroup="DaVinci" Version="02.17.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="DrvEep_XAt25128EAsr" ProjectGroup="DrvEep" Version="04.00.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="DrvEep_XAt25128EAsr" ProjectGroup="DrvEep" Version="04.00.01">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="DrvEep_XAt25128EAsr" ProjectGroup="DrvEep" ScanPattern="DrvEep_XAt25128EAsr" Version="04.00.00">
+            <RelativeFileSpec>.\Eep_30_At25128\Eep_30_At25128.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="EcuAb_AsrIoHwAb" ProjectGroup="EcuAb" Version="01.04.05">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="EcuAb_AsrIoHwAb" ProjectGroup="EcuAb" Version="01.06.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="EcuAb_AsrIoHwAb" ProjectGroup="EcuAb" ScanPattern="EcuAb_AsrIoHwAb" Version="01.03.00">
+            <RelativeFileSpec>.\IoHwAb\IoHwAb.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="GenTool_Configurator" ProjectGroup="GenTool" Version="04.00.55">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="GenTool_ConfiguratorBoards" ProjectGroup="GenTool" Version="01.00.30">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="GenTool_GenyEcucLocking" ProjectGroup="GenTool" Version="02.02.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyFrameworkCsyntax" ProjectGroup="GenTool" Version="02.09.00">
+            <RelativeFileSpec>.\_Gentool\Components\CSyntax.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyFrameworkGenXml" ProjectGroup="GenTool" Version="01.13.00">
+            <RelativeFileSpec>.\_Gentool\Components\GenXML.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyGraphicsLibCan" ProjectGroup="GenTool" Version="01.03.00">
+            <RelativeFileSpec>.\_Gentool\Components\ohcanglar.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyGuiChannelCfg" ProjectGroup="GenTool" Version="01.05.01">
+            <RelativeFileSpec>.\_Gentool\Components\CanLinCfgar.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyObjectHierarchyCan" ProjectGroup="GenTool" Version="01.21.00">
+            <RelativeFileSpec>.\_Gentool\Components\ohcanar.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyObjectHierarchyPdu" ProjectGroup="GenTool" Version="02.10.01">
+            <RelativeFileSpec>.\_Gentool\Components\GenTool_GenyObjectHierarchyPdu.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyObjectModel" ProjectGroup="GenTool" Version="02.11.00">
+            <RelativeFileSpec>.\_Gentool\Components\GenTool_GenyObjectModel.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="GenTool_GenyPluginAsrIfEcuConfigFile" ProjectGroup="GenTool" Version="02.13.02">
+            <RelativeFileSpec>.\_Gentool\Components\GenTool_GenyPluginAsrIfEcuConfigFile.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyPluginConfigDocumentor" ProjectGroup="GenTool" Version="02.02.02">
+            <RelativeFileSpec>.\_Gentool\Components\ConfigDocumentor.dll;.\_Gentool\Components\GenTool_GenyPluginConfigDocumentor.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="GenTool_GenyVcfgNameDecorator" ProjectGroup="GenTool" Version="01.01.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_GenyVcfgNameDecorator" ProjectGroup="GenTool" Version="02.21.02">
+            <RelativeFileSpec>.\_GenTool\Components\GenTool_GenyVcfgNameDecorator.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="GenTool_SwcTemplateExport" ProjectGroup="GenTool" Version="02.02.00">
+            <RelativeFileSpec>.\_Gentool\Components\PortInterfaceExport.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Configuration" Delivered="True" Lib="false" Project="GenTool_SystemXml" ProjectGroup="GenTool" Version="01.00.06">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="GenTool_XChecksumcrc" ProjectGroup="GenTool" Version="01.00.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="Hw_Tms470Cpu" ProjectGroup="Hw" Version="02.08.00">
+            <RelativeFileSpec>.\_Gentool\Components\Hw_Tms470Cpu.dll;.\_Gentool\Components\CPUTMS470.dll;.\Generators\Components\Hw_Tms470Cpu.dll;.\Generators\Components\CPUTMS470.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="Hw_Tms470DcanCpuCan" ProjectGroup="Hw" Version="01.09.00">
+            <RelativeFileSpec>.\_Gentool\Components\Hw_Tms470DcanCpuCan.dll;.\Generators\Components\Hw_Tms470DcanCpuCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="Hw__baseCpuCan" ProjectGroup="Hw" Version="02.21.00">
+            <RelativeFileSpec>.\_Gentool\Components\CPUCanBase.dll;.\_Gentool\Components\Hw__baseCpuCan.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="If_AsrIfEa" ProjectGroup="If" Version="02.01.01">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="If_AsrIfEa" ProjectGroup="If" Version="02.02.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="If_AsrIfEa" ProjectGroup="If" ScanPattern="If_AsrIfEa" Version="02.01.00">
+            <RelativeFileSpec>.\Ea\Ea.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="If_AsrIfMem" ProjectGroup="If" Version="02.00.04">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="If_AsrIfMem" ProjectGroup="If" Version="02.02.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="If_AsrIfMem" ProjectGroup="If" ScanPattern="If_AsrIfMem" Version="02.01.01">
+            <RelativeFileSpec>.\MemIf\MemIf.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="If_AsrIfWd" ProjectGroup="If" Version="03.04.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="If_AsrIfWd" ProjectGroup="If" Version="03.04.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="If_AsrIfWd" ProjectGroup="If" ScanPattern="If_AsrIfWd" Version="03.04.02">
+            <RelativeFileSpec>.\WdgIf\WdgIf.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="MemService_AsrNvM" ProjectGroup="MemService" Version="03.05.01">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="MemService_AsrNvM" ProjectGroup="MemService" Version="03.05.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="MemService_AsrNvM" ProjectGroup="MemService" ScanPattern="MemService_AsrNvM" Version="03.05.01">
+            <RelativeFileSpec>.\NvM\NvM.h</RelativeFileSpec>
+        </Component>
+        <Component Component="FeatureSet1" Delivered="True" Lib="false" Project="Os_AsrTms570" ProjectGroup="Os" Version="04.06.00">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="Os_Timinganalyzer" ProjectGroup="Os" Version="01.00.12">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="SysService_AsrCrc" ProjectGroup="SysService" Version="04.00.02">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="SysService_AsrCrc" ProjectGroup="SysService" Version="04.01.01">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="SysService_AsrCrc" ProjectGroup="SysService" ScanPattern="SysService_AsrCrc" Version="04.00.01">
+            <RelativeFileSpec>.\Crc\crc.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="SysService_AsrDet" ProjectGroup="SysService" Version="01.03.03">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Geny" Delivered="True" Lib="false" Project="SysService_AsrDet" ProjectGroup="SysService" Version="01.07.00">
+            <RelativeFileSpec>.\_GenTool\Components\SysService_AsrDet.dll;.\Generators\Components\SysService_AsrDet.dll</RelativeFileSpec>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="SysService_AsrDet" ProjectGroup="SysService" ScanPattern="SysService_AsrDet" Version="04.03.02">
+            <RelativeFileSpec>.\Det\Det.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="SysService_AsrEcuM" ProjectGroup="SysService" Version="04.04.06">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="SysService_AsrEcuM" ProjectGroup="SysService" Version="05.03.05">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="SysService_AsrEcuM" ProjectGroup="SysService" ScanPattern="SysService_AsrEcuM" Version="05.02.06">
+            <RelativeFileSpec>.\EcuM\EcuM.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="SysService_AsrSchM" ProjectGroup="SysService" ScanPattern="SysService_AsrSchM" Version="02.06.03">
+            <RelativeFileSpec>.\SchM\_SchM.h</RelativeFileSpec>
+        </Component>
+        <Component Component="Description" Delivered="True" Lib="false" Project="SysService_AsrWdM" ProjectGroup="SysService" Version="02.02.04">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="GenTool_Ead" Delivered="True" Lib="false" Project="SysService_AsrWdM" ProjectGroup="SysService" Version="02.03.04">
+            <RelativeFileSpec/>
+        </Component>
+        <Component Component="Implementation" Delivered="True" Lib="false" Project="SysService_AsrWdM" ProjectGroup="SysService" ScanPattern="SysService_AsrWdM" Version="02.03.02">
+            <RelativeFileSpec>.\WdgM\WdgM.h</RelativeFileSpec>
+        </Component>
+    </ComponentCheck>
+    <DeliveryVersionNumber>
+        <Byte>10</Byte>
+        <Byte>01</Byte>
+        <Byte>07</Byte>
+        <Byte>01</Byte>
+        <Byte>01</Byte>
+        <Byte>01</Byte>
+        <Byte>22</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+    </DeliveryVersionNumber>
+</CANbeddedVersionInfo>

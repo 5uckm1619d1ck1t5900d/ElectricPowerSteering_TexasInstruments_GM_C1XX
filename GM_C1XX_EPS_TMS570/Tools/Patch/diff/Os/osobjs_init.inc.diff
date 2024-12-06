@@ -1,0 +1,31 @@
+--- ..\..\..\..\SwProject\Source\GenDataOS\osobjs_init.inc.bak	2016-04-26 15:50:39.861596900 -0400
++++ ..\..\..\..\SwProject\Source\GenDataOS\osobjs_init.inc	2016-04-26 16:00:49.439596900 -0400
+@@ -6,8 +6,13 @@
+ /* Version of general code: 5.23c */
+ 
+      . = align(8192);   /* align to region size 8192 */
+-     *(.ossDataAp_9:init) {START(_ossAppliDataStartAp_9), SIZE(_ossAppliDataSizeAp_9)}
++     _ossAppliDataStartAp_9=.;
++     /* Nexteer patch to add *.data allocation to Ap_9 */
++     *(.ossDataAp_9:init)
++	 -l=rtsv7R4_T_be_v3D16_eabi.lib (.data)
++	 ggda.obj (.data)
+      _ossAppliDataEndAp_9=.;
++	 _ossAppliDataSizeAp_9 = _ossAppliDataEndAp_9 - _ossAppliDataStartAp_9 +1;
+      . = . + 1;
+      . = align(8192); /* Use 8 subregions with size 1024*/
+ 
+@@ -24,8 +29,12 @@
+      . = align(512); /* Use 8 subregions with size 64*/
+ 
+      . = align(0);   /* align to region size 0 */
+-     *(.ossDataAp_0:init) {START(_ossAppliDataStartAp_0), SIZE(_ossAppliDataSizeAp_0)}
++     /* Nexteer edit for Flash Library Data */
++     _ossAppliDataStartAp_0=.;
++     *(.ossDataAp_0:init)
++	-l=F021_API_CortexR4_BE_v3D16.lib (.data)
+      _ossAppliDataEndAp_0=.;
++     _ossAppliDataSizeAp_0 = _ossAppliDataEndAp_0 - _ossAppliDataStartAp_0 + 1;
+      . = . + 1;
+      . = align(0); /* Use no subregions */
+ 

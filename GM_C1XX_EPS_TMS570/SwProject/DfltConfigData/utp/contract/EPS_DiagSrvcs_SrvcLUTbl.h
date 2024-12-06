@@ -1,0 +1,1 @@
+extern VAR(ManufModeType, EPSDIAGSRVCS_VAR) NxtrMEC_Uls_G_enum;

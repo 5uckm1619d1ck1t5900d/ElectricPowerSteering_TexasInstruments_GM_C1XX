@@ -1,0 +1,91 @@
+<#@ AutosarXml processor="ArDirectiveProcessor" requires="arPrefix='ar';arNamespace='http://autosar.org/2.1.2'" #>
+<#@ template inherits="AutosarDirectiveProcessor.ArGtcBase" debug="false" #>
+<#@ output extension=".csv" #>
+<#@ include file="Helper.tt" #>
+<#
+	/* Set context to the Fee configuration */
+	ChangeContext( Xp.ModuleConfAtDefRefTo( "Fee" ) );
+#>
+NvM Block Name, Fee Block Name, Block Num (Dec), Block Num (Hex), Data Sets (Dec), Data Sets (Hex), Size (Dec), Size (Hex), Write Cycle, High Priority, EEP Number
+<# /* Start Loop through Ea configuration */ #>
+<# !LOOP( Xp.ContainerAtDefRefTo( "FeeBlockConfiguration" ) ) #>
+<#
+	string NvMBlockName_str = "";
+	string FeeBlockName_str = "";
+	short BlockNum = 0;
+	short DataSets = 0;
+	short Size = 0;
+	short WriteCycle = 0;
+	bool HighPriority_lgc = false;
+	short FeeEEPNumber = 0;
+	
+	
+	/* NvM Block Name */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeNvmBlockName")));
+	{
+		try
+		{
+			/* Attempt to read the value, if it is null or empty, ignore the exception and place [Null] */
+			NvMBlockName_str = ValueOf(Xp.ValueAtDefRefTo( "FeeNvmBlockName"));
+		}
+		catch
+		{
+			NvMBlockName_str = "[Null]";
+		}
+	}
+	
+	/* FEE Block Name */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeBlockName")));
+	{
+		try
+		{
+			/* Attempt to read the value, if it is null or empty, ignore the exception and place [Null] */
+			FeeBlockName_str = ValueOf(Xp.ValueAtDefRefTo( "FeeBlockName"));
+		}
+		catch
+		{
+			FeeBlockName_str = ValueOf( "ar:SHORT-NAME" );
+		}
+	}
+	
+	/* Block Number */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeBlockConfiguration" ))) 
+	{
+		BlockNum = ValueOf(Xp.ValueAtDefRefTo( "FeeBlockConfiguration" ));
+	}
+	
+	/* Data Sets */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeDataset" ))) 
+	{
+		DataSets = ValueOf(Xp.ValueAtDefRefTo( "FeeDataset" ));
+	}
+	
+	/* Size */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeBlockSize" ))) 
+	{
+		Size = ValueOf(Xp.ValueAtDefRefTo( "FeeBlockSize" ));
+	}			
+	
+	/* Write Cycle */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeNumberOfWriteCycles" ))) 
+	{
+		WriteCycle = ValueOf(Xp.ValueAtDefRefTo( "FeeNumberOfWriteCycles" ));
+	}
+
+	/* High Priority */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeImmediateData" ))) 
+	{
+		HighPriority_lgc = ValueOf(Xp.ValueAtDefRefTo( "FeeImmediateData" ));
+	}	
+	
+	/* Device Index */
+	if (Exists(Xp.ValueAtDefRefTo( "FeeEEPNumber" ))) 
+	{
+		FeeEEPNumber = ValueOf(Xp.ValueAtDefRefTo( "FeeEEPNumber" ));
+	}	
+#>
+<#
+if(FeeBlockName_str != "FeeBlockConfiguration") { #>
+<#= NvMBlockName_str #>, <#= FeeBlockName_str #>, <#= BlockNum #>, <#= FormatHex(BlockNum, 6, HexCase.Upper) #>, <#= DataSets #>, <#= FormatHex(DataSets, 6, HexCase.Upper) #>, <#= Size #>, <#= FormatHex(Size, 6, HexCase.Upper) #>, <#= WriteCycle #>, <#= HighPriority_lgc #>, <#= FeeEEPNumber #>
+<#}#>
+<# !ENDLOOP #>

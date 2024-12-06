@@ -1,0 +1,12 @@
+VersionTag45
+StartProjectMarker
+FolderName=CMS_K2xx
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\EPS_DiagSrvcs_ISO.Customer.c
+..\..\src\EPS_DiagSrvcs_SrvcLUTbl.c
+EndContainedFilesMarker
+

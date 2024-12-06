@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="true"
+    identifier="4c208fb4-8d77-4ade-aebb-904c9febd79a"
+    location="$(PROJECTROOT)\tessy"
+    name="CBD_StabilityComp2"
+    projectVersion="3"
+    tessyVersion="3.1.9"
+    isTemplate="false"/>

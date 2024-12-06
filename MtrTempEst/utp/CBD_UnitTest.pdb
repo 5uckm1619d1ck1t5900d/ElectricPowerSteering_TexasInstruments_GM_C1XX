@@ -1,0 +1,112 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\MtrTempEst\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\MtrTempEst\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 23.12.2011 13:48
+Last Changed     : 12.04.2013 19:05
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "MtrTempEst"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Rasika Deshpande\r\nCode File(s) Under Test:Ap_MtrTempEst.c\r\nCode File(s) Version:20\r\nModule Design Document:Motor_Temperature_Estimation_MDD\r\nModule Design Document Version:14\r\nUnit Test Plan Version:7\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:\r\nSpecial Test Requirements:\r\nTest Date:4/12/2013\r\nComments:NOTE 1: Inline functions defined in GlobalMacro.h are not Unit Tested. \r\n\nNOTE2: In  """"LeadLagFilt"""" function, some\n test vectors are failing due tolerance.\n""\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\MtrTempEst\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\MtrTempEst\utp\contract\Ap_MtrTempEst, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_MtrTempEst.c"
+         Path : "$(PROJECTROOT)\MtrTempEst\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MtrTempEst_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LeadLagFiltInit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "MtrTempEst_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LeadLagFilt"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "AssMechFiltInit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

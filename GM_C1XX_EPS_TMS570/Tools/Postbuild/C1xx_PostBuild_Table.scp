@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="PostBuild_Table">
+    <Variable name="t_DiagSrv_PIDtbl[35].address" action="update" set="" varType="Calibration" safetyLevel="2" displayName="" address="385948" virtualAddress="385948" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[QaxCurrFiltSV_Amp_M_s11p20]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[35].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[70].address" set="" varType="Calibration" safetyLevel="2" displayName="" address="386648" virtualAddress="386648" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[DigColPs_VernDiagError_Deg_D_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[70].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[9].address" set="" varType="Calibration" safetyLevel="2" displayName="" address="403516" virtualAddress="403516" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[AbsHwPos_AlignedHwPos_HwDeg_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[9].address,PostBuild_Table/t_DiagSrv_PIDtbl[9].address,PostBuild_Table/t_DiagSrv_PIDtbl[9].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[3].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="385308" virtualAddress="385308" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT16*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[IoHwAb_FwdPthAdcBufRead_Cnt_M_u16[0]]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[3].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[5].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="385348" virtualAddress="385348" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT16*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[IoHwAb_FwdPthAdcBufRead_Cnt_M_u16[1]]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[5].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[60].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="t_DiagSrv_PIDtbl[60].address" address="386448" virtualAddress="386448" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[TcSpiBuffer_Cnt_M_str.RxBuffer_Cnt_u08[0]]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[60].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[61].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="t_DiagSrv_PIDtbl[61].address" address="386468" virtualAddress="386468" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="0" changeLarge="0" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[MtrPos2_Sin1RTOffset_Volt_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[61].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[62].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="386488" virtualAddress="386488" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="0" changeLarge="0" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[MtrPos2_Cos1RTOffset_Volt_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[62].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[10].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="403536" virtualAddress="403536" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[KeFBckTyH_VpRadpS_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[10].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_PIDtbl[11].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="403556" virtualAddress="403556" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[RFBckTyH_Ohm_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_PIDtbl[11].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_ISOVarTbl[3].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="424100" virtualAddress="424100" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[KeIntgSV_Amp_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_ISOVarTbl[3].address]]></paths>
+    </Variable>
+    <Variable name="t_DiagSrv_ISOVarTbl[4].address" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="424104" virtualAddress="424104" bitMask="0" dataSize="1" units="DiagSrv" factor="1" offset="0" changeSmall="1" changeLarge="10" valueMin="0" valueMax="2147483647" restrictionType="None" dataType="UINT32*" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[RIntgSV_Amp_M_f32]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/t_DiagSrv_ISOVarTbl[4].address]]></paths>
+    </Variable>
+    <Variable name="EnableTestMode_Cnt_lgc" action="delete" set="" varType="Calibration" safetyLevel="2" displayName="" address="630668" virtualAddress="630668" bitMask="0" dataSize="1" units="Cnt" factor="1" offset="0" changeSmall="0" changeLarge="0" valueMin="0" valueMax="1" restrictionType="None" dataType="BOOLEAN" formatString="" readOnly="False" hidden="False" calibrationID="0" groupOwner="" owner="" impact="" confidence="0" calibrationCycle="" xmlVer="2.1">
+        <data><![CDATA[False]]></data>
+        <description><![CDATA[]]></description>
+        <calProcedure><![CDATA[]]></calProcedure>
+        <paths><![CDATA[PostBuild_Table/EnableTestMode_Cnt_lgc]]></paths>
+    </Variable>
+    <Configuration name="Default" />
+    <Log>
+        <Entry Time="3/26/2013 12:38:46 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\Documents and Settings\cz7lt6\Desktop\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="3/26/2013 12:38:58 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\Documents and Settings\cz7lt6\Desktop\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="3/26/2013 4:42:38 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\Documents and Settings\cz7lt6\Desktop\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="3/26/2013 4:43:05 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV.out opened.]]></Entry>
+        <Entry Time="3/26/2013 4:43:05 PM" User="cz7lt6" Level="1"><![CDATA[Project PostBuild_Table updated from C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV.out
+]]></Entry>
+        <Entry Time="3/26/2013 4:43:22 PM" User="cz7lt6" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[9].address(ScaledMtrPos_HwDeg_M_f32) is out of range.  Value Updated.
+]]></Entry>
+        <Entry Time="3/26/2013 4:43:22 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\Documents and Settings\cz7lt6\Desktop\Test.out saved.]]></Entry>
+        <Entry Time="3/26/2013 4:43:26 PM" User="cz7lt6" Level="1"><![CDATA[CCT Ran on C:\Documents and Settings\cz7lt6\Desktop\Test.out]]></Entry>
+        <Entry Time="3/26/2013 4:45:31 PM" User="cz7lt6" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[9].address(ScaledMtrPos_HwDeg_M_f32) is out of range.  Value Updated.
+]]></Entry>
+        <Entry Time="3/26/2013 4:45:31 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\Documents and Settings\cz7lt6\Desktop\Test.out saved.]]></Entry>
+        <Entry Time="3/26/2013 4:45:35 PM" User="cz7lt6" Level="1"><![CDATA[CCT Ran on C:\Documents and Settings\cz7lt6\Desktop\Test.out]]></Entry>
+        <Entry Time="3/26/2013 4:54:34 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\Documents and Settings\cz7lt6\Desktop\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="3/26/2013 4:54:45 PM" User="cz7lt6" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[9].address(ScaledMtrPos_HwDeg_M_f32) is out of range.  Skipped.
+
+Update canceled by users.
+]]></Entry>
+        <Entry Time="3/26/2013 4:54:55 PM" User="cz7lt6" Level="1"><![CDATA[]]></Entry>
+        <Entry Time="3/26/2013 4:54:55 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\Documents and Settings\cz7lt6\Desktop\Test.out saved.]]></Entry>
+        <Entry Time="3/26/2013 4:54:59 PM" User="cz7lt6" Level="1"><![CDATA[CCT Ran on C:\Documents and Settings\cz7lt6\Desktop\Test.out]]></Entry>
+        <Entry Time="3/26/2013 4:55:39 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\Documents and Settings\cz7lt6\Desktop\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="3/30/2013 9:42:41 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV.out opened.]]></Entry>
+        <Entry Time="3/30/2013 9:42:42 PM" User="cz7lt6" Level="1"><![CDATA[Project PostBuild_Table updated from C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV.out
+]]></Entry>
+        <Entry Time="3/30/2013 9:42:49 PM" User="cz7lt6" Level="1"><![CDATA[]]></Entry>
+        <Entry Time="3/30/2013 9:42:52 PM" User="cz7lt6" Level="1"><![CDATA[Binary file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV_PostBuild.out saved.]]></Entry>
+        <Entry Time="3/30/2013 9:42:57 PM" User="cz7lt6" Level="1"><![CDATA[CCT Ran on C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV_PostBuild.out]]></Entry>
+        <Entry Time="3/30/2013 9:43:00 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\Tools\PostBuild\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="4/7/2013 9:29:55 PM" User="cz7lt6" Level="1"><![CDATA[Project PostBuild_Table updated from C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I421\BMW_UKL_MCV_EPS_TMS570\SwProject\Release\EPS_UKL_MCV_PostBuild.out
+]]></Entry>
+        <Entry Time="4/7/2013 9:31:47 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I490\BMW_UKL_MCV_EPS_TMS570\Tools\PostBuild\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="4/7/2013 9:32:16 PM" User="cz7lt6" Level="1"><![CDATA[Project file C:\_swb\BMW\BMW_UKL_MCV_EPS_TMS570-_I490\BMW_UKL_MCV_EPS_TMS570\Tools\PostBuild\BMW_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="4/25/2013 5:33:52 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out opened.]]></Entry>
+        <Entry Time="4/25/2013 5:34:01 AM" User="kzdyfh" Level="1"><![CDATA[Results from updating PostBuild_Table from C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+	Deleted EnableTestMode_Cnt_lgc
+]]></Entry>
+        <Entry Time="4/25/2013 5:38:24 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[9].address(AlignedHwPos_HwDeg_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_PIDtbl[10].address(KeFBckTyH_VpRadpS_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_PIDtbl[11].address(RFBckTyH_Ohm_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_ISOVarTbl[3].address(KeIntgSV_Amp_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_ISOVarTbl[4].address(RIntgSV_Amp_M_f32) is out of range.  Skipped.
+]]></Entry>
+        <Entry Time="4/25/2013 5:38:25 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="4/25/2013 5:38:28 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="4/25/2013 5:39:15 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[9].address(AlignedHwPos_HwDeg_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_PIDtbl[10].address(KeFBckTyH_VpRadpS_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_PIDtbl[11].address(RFBckTyH_Ohm_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_ISOVarTbl[3].address(KeIntgSV_Amp_M_f32) is out of range.  Skipped.
+Value for t_DiagSrv_ISOVarTbl[4].address(RIntgSV_Amp_M_f32) is out of range.  Skipped.
+]]></Entry>
+        <Entry Time="4/25/2013 5:39:16 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="4/25/2013 5:39:19 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="4/25/2013 5:41:42 AM" User="kzdyfh" Level="1"><![CDATA[]]></Entry>
+        <Entry Time="4/25/2013 5:41:42 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="4/25/2013 5:41:45 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="4/25/2013 5:41:50 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford_S550_P552\PV\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/9/2013 5:24:07 PM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from ..\..\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/9/2013 5:24:30 PM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out opened.]]></Entry>
+        <Entry Time="11/9/2013 5:24:30 PM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/9/2013 5:29:04 PM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/9/2013 10:29:11 PM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/9/2013 10:29:40 PM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/10/2013 8:10:51 AM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/10/2013 8:11:06 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out opened.]]></Entry>
+        <Entry Time="11/10/2013 8:11:06 AM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/10/2013 8:11:20 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[3].address(IO_FwdPthAdcBufRead_M_Cnt[0]) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[5].address(IO_FwdPthAdcBufRead_M_Cnt[1]) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[61].address(MtrPos2_Sin1RTOffset_Volt_M_f32) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[62].address(MtrPos2_Cos1RTOffset_Volt_M_f32) is out of range...Skipped.
+]]></Entry>
+        <Entry Time="11/10/2013 8:11:20 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="11/10/2013 8:11:23 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="11/10/2013 8:12:03 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[3].address(IO_FwdPthAdcBufRead_M_Cnt[0]) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[5].address(IO_FwdPthAdcBufRead_M_Cnt[1]) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[61].address(MtrPos2_Sin1RTOffset_Volt_M_f32) is out of range...Skipped.
+Value for t_DiagSrv_PIDtbl[62].address(MtrPos2_Cos1RTOffset_Volt_M_f32) is out of range...Skipped.
+]]></Entry>
+        <Entry Time="11/10/2013 8:12:03 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="11/10/2013 8:12:05 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="11/10/2013 8:15:57 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/10/2013 8:16:12 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[3].address(IO_FwdPthAdcBufRead_M_Cnt[0]) is out of range...Value Updated.
+Value for t_DiagSrv_PIDtbl[5].address(IO_FwdPthAdcBufRead_M_Cnt[1]) is out of range...Value Updated.
+]]></Entry>
+        <Entry Time="11/10/2013 8:16:12 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="11/10/2013 8:16:15 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="11/10/2013 8:16:43 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[3].address(IO_FwdPthAdcBufRead_M_Cnt[0]) is out of range...Value Updated.
+Value for t_DiagSrv_PIDtbl[5].address(IO_FwdPthAdcBufRead_M_Cnt[1]) is out of range...Value Updated.
+]]></Entry>
+        <Entry Time="11/10/2013 8:16:43 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="11/10/2013 8:16:46 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="11/10/2013 8:17:02 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/10/2013 8:17:18 AM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[3].address(IO_FwdPthAdcBufRead_M_Cnt[0]) is out of range...Value Updated.
+Value for t_DiagSrv_PIDtbl[5].address(IO_FwdPthAdcBufRead_M_Cnt[1]) is out of range...Value Updated.
+]]></Entry>
+        <Entry Time="11/10/2013 8:17:18 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out saved.]]></Entry>
+        <Entry Time="11/10/2013 8:17:21 AM" User="kzdyfh" Level="1"><![CDATA[CCT Ran on C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out]]></Entry>
+        <Entry Time="11/10/2013 8:17:22 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\Ford_S550_P552_EPS_TMS570-Ford\S550_P552_Branch\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/18/2013 3:57:33 PM" User="wz7x3j" Level="1"><![CDATA[Project file C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/18/2013 9:19:05 PM" User="wz7x3j" Level="1"><![CDATA[Binary file C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out opened.]]></Entry>
+        <Entry Time="11/18/2013 9:19:05 PM" User="wz7x3j" Level="1"><![CDATA[Project PostBuild_Table updated from C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/18/2013 9:24:24 PM" User="wz7x3j" Level="1"><![CDATA[Project file C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/19/2013 2:34:50 AM" User="wz7x3j" Level="1"><![CDATA[Binary file C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out opened.]]></Entry>
+        <Entry Time="11/19/2013 2:34:50 AM" User="wz7x3j" Level="1"><![CDATA[Project PostBuild_Table updated from C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\SwProject\Debug\EPS_S550_dbg.out
+]]></Entry>
+        <Entry Time="11/19/2013 2:35:47 AM" User="wz7x3j" Level="1"><![CDATA[Project file C:\cmsynergy\Ford_S550_P552_FordBranchMPU\Ford_S550_P552_EPS_TMS570\Tools\Postbuild\S550_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/24/2014 5:37:27 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out opened.]]></Entry>
+        <Entry Time="11/24/2014 5:37:30 AM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out
+]]></Entry>
+        <Entry Time="11/24/2014 5:42:10 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\Tools\Postbuild\C1xx_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/24/2014 10:42:29 AM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out
+]]></Entry>
+        <Entry Time="11/24/2014 10:42:40 AM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out opened.]]></Entry>
+        <Entry Time="11/24/2014 10:42:40 AM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out
+]]></Entry>
+        <Entry Time="11/24/2014 10:47:22 AM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\Tools\Postbuild\C1xx_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/24/2014 3:47:32 PM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out
+]]></Entry>
+        <Entry Time="11/24/2014 3:47:41 PM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out opened.]]></Entry>
+        <Entry Time="11/24/2014 3:47:41 PM" User="kzdyfh" Level="1"><![CDATA[Project PostBuild_Table updated from C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out
+]]></Entry>
+        <Entry Time="11/24/2014 3:49:47 PM" User="kzdyfh" Level="1"><![CDATA[Value for t_DiagSrv_PIDtbl[70].address(DigColPs_VernDiagError_Deg_D_f32) is out of range...Skipped.
+
+Update canceled by users.
+]]></Entry>
+        <Entry Time="11/24/2014 3:50:14 PM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\Tools\Postbuild\C1xx_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/24/2014 3:50:16 PM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\Tools\Postbuild\C1xx_PostBuild_Table.scp has been saved.]]></Entry>
+        <Entry Time="11/24/2014 3:51:50 PM" User="kzdyfh" Level="1"><![CDATA[]]></Entry>
+        <Entry Time="11/24/2014 3:51:50 PM" User="kzdyfh" Level="1"><![CDATA[Binary file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out saved.]]></Entry>
+        <Entry Time="11/24/2014 3:51:58 PM" User="kzdyfh" Level="1"><![CDATA[Project file C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\Tools\Postbuild\C1xx_PostBuild_Table.scp has been saved.]]></Entry>
+    </Log>
+    <Options>
+        <CANTxID>1280</CANTxID>
+        <CANRxID>1281</CANRxID>
+        <CCPStationAddress>57</CCPStationAddress>
+        <BaudRate>500000</BaudRate>
+        <CANVerifySymbol>k_N_EtuneApplID_Cnt_u32</CANVerifySymbol>
+        <CANVerifyAddress>0</CANVerifyAddress>
+        <CALVerifySymbol>k_N_RandomCalKey_Cnt_u32</CALVerifySymbol>
+        <CALVerifyAddress>0</CALVerifyAddress>
+        <FlashTraceabilitySymbol>k_N_CalTraceability_Cnt_u16</FlashTraceabilitySymbol>
+        <FlashTraceabilityAddress>0</FlashTraceabilityAddress>
+        <FlashTraceabilitySize>1</FlashTraceabilitySize>
+        <ProtocolDriver>Default</ProtocolDriver>
+        <CCPBigEndian>True</CCPBigEndian>
+        <CCPECUAddressMode>Word</CCPECUAddressMode>
+        <ECUPlatform>Custom</ECUPlatform>
+        <CCPWriteCalsOnShutdown>True</CCPWriteCalsOnShutdown>
+        <CCPWriteCalsSymbol />
+        <CCPWriteCalsValue />
+        <BinSourceFileName>C:\Workspace\GM_C1XX_EPS_TMS570-General_Motors_working\C1xx\GM_C1XX_EPS_TMS570\SwProject\Debug\EPS_GM_C1xx_dbg.out</BinSourceFileName>
+        <BinSourceRequired>False</BinSourceRequired>
+        <UseChecksumTool>True</UseChecksumTool>
+        <DefaultECUProgrammingTool />
+        <ExtendedAddressing>False</ExtendedAddressing>
+    </Options>
+</project>
